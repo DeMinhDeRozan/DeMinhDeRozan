@@ -2,13 +2,12 @@
   <img src="assets/header.svg" width="100%" alt="DeMinh DeRozan: DevOps, cloud and automation"/>
 </p>
 
-<h2 align="center">
-  I cook <kbd>&nbsp;DevOps&nbsp;</kbd> and <kbd>&nbsp;Cloud&nbsp;</kbd> ☁️
-</h2>
-
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## What I cook
+## What I cook?
+<h3 align="center">
+  I cook <kbd>&nbsp;DevOps&nbsp;</kbd> and <kbd>&nbsp;Cloud&nbsp;</kbd> ☁️
+</h3>
 
 ```mermaid
 flowchart LR
@@ -31,7 +30,7 @@ flowchart LR
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## The AWS universe
+## My AWS Skills
 
 <p align="center">
   <a href="https://aws.amazon.com/products/">
@@ -39,7 +38,7 @@ flowchart LR
   </a>
 </p>
 
-Every tile below opens that service on AWS.
+## Open to see more
 
 <div align="center">
 
