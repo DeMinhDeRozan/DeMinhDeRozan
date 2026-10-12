@@ -7,11 +7,6 @@
   I cook DevOps: Cloud and Automation.
 </p>
 
-<p align="center">
-  <a href="mailto:deminhderozan@gmail.com"><img src="https://img.shields.io/badge/AWS%20questions-deminhderozan%40gmail.com-FF9900?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/DeMinhDeRozan"><img src="https://img.shields.io/badge/GitHub-DeMinhDeRozan-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
-
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## What I cook
