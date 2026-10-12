@@ -65,5 +65,5 @@ flowchart LR
 Contact for anything about AWS cloud: [deminhderozan@gmail.com](mailto:deminhderozan@gmail.com)
 
 <p align="center">
-  <img src="shaq.gif" width="600" alt="I am too cooked">
+  <img src="/assets/shaq.gif" width="200" align = "left" alt="I am too cooked">
 </p>
