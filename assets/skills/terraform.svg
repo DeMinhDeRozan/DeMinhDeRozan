@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 220" width="180" height="220">
+<style>text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.fl{animation:fl 4s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.dash{stroke-dasharray:14 10;animation:ds 2.4s linear infinite}
+@keyframes ds{to{stroke-dashoffset:-48}}
+.pu{animation:pu 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.bk{animation:bk 1s steps(1) infinite}
+@keyframes bk{0%,50%{opacity:1}50.1%,100%{opacity:0}}
+.lt{animation:lt 2.4s ease-in-out infinite}
+@keyframes lt{0%,100%{opacity:.3}50%{opacity:1}}
+</style>
+<g class="fl">
+<rect x="6" y="10" width="168" height="200" rx="18" fill="#0d1117"/>
+<rect class="dash" x="6" y="10" width="168" height="200" rx="18" fill="none" stroke="#a371f7" stroke-width="2"/>
+<g transform="translate(90,88)"><rect class="lt" style="animation-delay:0s" x="-38" y="-38" width="34" height="34" rx="6" fill="#7B42BC"/>
+<rect class="lt" style="animation-delay:.6s" x="4" y="-38" width="34" height="34" rx="6" fill="#a371f7"/>
+<rect class="lt" style="animation-delay:1.2s" x="-38" y="4" width="34" height="34" rx="6" fill="#a371f7"/>
+<rect class="lt" style="animation-delay:1.8s" x="4" y="4" width="34" height="34" rx="6" fill="#7B42BC"/></g>
+<text x="90" y="170" text-anchor="middle" font-size="22" font-weight="800" fill="#e6edf3">Terraform</text>
+<text x="90" y="192" text-anchor="middle" font-size="12.5" fill="#8b949e">Infrastructure as code</text>
+</g></svg>

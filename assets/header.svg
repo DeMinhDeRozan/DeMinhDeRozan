@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.float1{animation:fl 7s ease-in-out infinite}
+.float2{animation:fl 9s ease-in-out -3s infinite}
+.float3{animation:fl 11s ease-in-out -6s infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+.c1{animation:r1 14s steps(24,end) infinite}
+.c2{animation:r2 14s steps(30,end) infinite}
+.c3{animation:r3 14s steps(31,end) infinite}
+@keyframes r1{0%,2%{transform:translateX(0)}9%,100%{transform:translateX(620px)}}
+@keyframes r2{0%,12%{transform:translateX(0)}24%,100%{transform:translateX(620px)}}
+@keyframes r3{0%,28%{transform:translateX(0)}44%,100%{transform:translateX(620px)}}
+.blink{animation:bl 1s steps(1) infinite}
+@keyframes bl{0%,50%{opacity:1}50.1%,100%{opacity:0}}
+.pulse{animation:pu 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+.flow{stroke-dasharray:7 9;animation:fw 1.2s linear infinite}
+@keyframes fw{to{stroke-dashoffset:-32}}
+.dot{animation:dt 3.2s ease-in-out infinite}
+@keyframes dt{0%,100%{opacity:.25}50%{opacity:1}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#151b26"/></linearGradient>
+<linearGradient id="name" x1="0" x2="1">
+<stop offset="0" stop-color="#FF9900"/><stop offset=".55" stop-color="#ffb84d"/><stop offset="1" stop-color="#39c5cf"/>
+<animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+<animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="cloud" gradientUnits="userSpaceOnUse" x1="0" y1="115" x2="0" y2="200"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#FF9900"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="term"><rect x="60" y="168" width="620" height="140" rx="10"/></clipPath>
+</defs>
+<rect width="1000" height="340" fill="url(#bg)"/>
+<rect width="1000" height="340" fill="url(#grid)"/>
+<circle class="float1" cx="120" cy="60" r="3" fill="#FF9900" opacity=".6"/>
+<circle class="float2" cx="540" cy="40" r="4" fill="#39c5cf" opacity=".5"/>
+<circle class="float3" cx="700" cy="110" r="2.5" fill="#f778ba" opacity=".6"/>
+<circle class="float2" cx="960" cy="40" r="3" fill="#FF9900" opacity=".5"/>
+<text x="60" y="108" font-size="66" font-weight="800" fill="url(#name)" letter-spacing="-1">DeMinh DeRozan</text>
+<text x="62" y="146" font-size="21" fill="#8b949e">DevOps, cloud and automation. Cooking infrastructure on AWS.</text>
+<rect x="60" y="168" width="620" height="140" rx="10" fill="#0a0e14" stroke="#30363d"/>
+<rect x="60" y="168" width="620" height="28" rx="10" fill="#161b22"/>
+<rect x="60" y="186" width="620" height="10" fill="#161b22"/>
+<circle cx="80" cy="182" r="5" fill="#ff5f56"/><circle cx="98" cy="182" r="5" fill="#ffbd2e"/><circle cx="116" cy="182" r="5" fill="#27c93f"/>
+<g class="mono" font-size="20">
+<text x="82" y="228" fill="#3fb950" textLength="24" lengthAdjust="spacingAndGlyphs">$ </text>
+<text x="106" y="228" fill="#e6edf3" textLength="72" lengthAdjust="spacingAndGlyphs">whoami</text>
+<text x="82" y="262" fill="#FF9900" textLength="24" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="106" y="262" fill="#e6edf3" textLength="336" lengthAdjust="spacingAndGlyphs">IT student, DevOps in the making</text>
+<text x="82" y="296" fill="#3fb950" textLength="24" lengthAdjust="spacingAndGlyphs">$ </text>
+<text x="106" y="296" fill="#e6edf3" textLength="372" lengthAdjust="spacingAndGlyphs">terraform apply -auto-approve</text>
+</g>
+<g clip-path="url(#term)">
+<rect class="c1" x="76" y="206" width="600" height="30" fill="#0a0e14"/>
+<rect class="c2" x="76" y="240" width="600" height="30" fill="#0a0e14"/>
+<rect class="c3" x="76" y="274" width="600" height="30" fill="#0a0e14"/>
+</g>
+<rect class="blink" x="490" y="279" width="11" height="20" fill="#FF9900"/>
+<g filter="url(#glow)">
+<g class="pulse">
+<g fill="url(#cloud)"><circle cx="800" cy="170" r="30"/><circle cx="840" cy="150" r="40"/><circle cx="885" cy="172" r="30"/><rect x="800" y="170" width="85" height="30"/></g>
+</g>
+</g>
+<text x="842" y="186" text-anchor="middle" font-size="30" font-weight="800" fill="#0d1117">aws</text>
+<line class="flow" x1="770" y1="262" x2="930" y2="262" stroke="#39c5cf" stroke-width="2"/>
+<g>
+<circle class="dot" cx="770" cy="262" r="8" fill="#0d1117" stroke="#39c5cf" stroke-width="2"/>
+<circle class="dot" style="animation-delay:.8s" cx="823" cy="262" r="8" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+<circle class="dot" style="animation-delay:1.6s" cx="876" cy="262" r="8" fill="#0d1117" stroke="#f778ba" stroke-width="2"/>
+<circle class="dot" style="animation-delay:2.4s" cx="930" cy="262" r="8" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+</g>
+<text x="770" y="296" text-anchor="middle" font-size="12" fill="#8b949e">build</text>
+<text x="823" y="296" text-anchor="middle" font-size="12" fill="#8b949e">test</text>
+<text x="876" y="296" text-anchor="middle" font-size="12" fill="#8b949e">plan</text>
+<text x="930" y="296" text-anchor="middle" font-size="12" fill="#8b949e">ship</text>
+</svg>

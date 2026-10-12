@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 112" width="150" height="112">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.card{animation:pu 3s ease-in-out 0.5s infinite}
+@keyframes pu{0%,100%{stroke-opacity:.3}50%{stroke-opacity:1}}
+.sh{animation:sw 4.5s ease-in-out 0.5s infinite}
+@keyframes sw{0%{transform:translateX(-80px)}55%,100%{transform:translateX(170px)}}
+.bob{animation:bo 3s ease-in-out 0.5s infinite}
+@keyframes bo{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#4f9cf9" stop-opacity="0"/><stop offset=".5" stop-color="#4f9cf9" stop-opacity=".28"/><stop offset="1" stop-color="#4f9cf9" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect x="1" y="1" width="148" height="110" rx="12"/></clipPath>
+</defs>
+<rect x="1" y="1" width="148" height="110" rx="12" fill="#0d1117"/>
+<g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="70" height="112" fill="url(#g)"/></g>
+<rect class="card" x="1" y="1" width="148" height="110" rx="12" fill="none" stroke="#4f9cf9" stroke-width="1.5"/>
+<g class="bob">
+<circle cx="75" cy="38" r="22" fill="#4f9cf9" fill-opacity=".14" stroke="#4f9cf9" stroke-width="1.5"/>
+<text x="75" y="44.1" text-anchor="middle" font-size="17" font-weight="800" fill="#4f9cf9">RDS</text>
+</g>
+<text x="75" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">RDS</text>
+<text x="75" y="99" text-anchor="middle" font-size="10" fill="#8b949e">Database</text>
+</svg>
