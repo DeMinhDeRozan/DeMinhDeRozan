@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Just an IT student struggling in Aussie Marketplace.</b><br/>
-  I cook DevOps: Cloud and Automation.
+  I cook DevOps and Cloud.
 </p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
