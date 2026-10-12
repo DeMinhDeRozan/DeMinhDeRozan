@@ -2,9 +2,9 @@
   <img src="assets/header.svg" width="100%" alt="DeMinh DeRozan: DevOps, cloud and automation"/>
 </p>
 
-<p align="center">
-  I cook DevOps and Cloud.
-</p>
+<h2 align="center">
+  I cook <kbd>&nbsp;DevOps&nbsp;</kbd> and <kbd>&nbsp;Cloud&nbsp;</kbd> ☁️
+</h2>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
