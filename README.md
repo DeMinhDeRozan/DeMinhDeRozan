@@ -56,7 +56,7 @@ flowchart LR
 ## Stats
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=DeMinhDeRozan&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats"/>
+  <img src="https://streak-stats.demolab.com/?user=DeMinhDeRozan&theme=tokyonight&hide_border=true" height="170" alt="Streak"/>
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=DeMinhDeRozan&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages"/>
 </p>
 
